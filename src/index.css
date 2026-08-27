@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: seedlight --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "seedlight";
+  default: true;
+  color-scheme: light;
+
+  --color-base-100: #ffffff;
+  --color-base-200: #f6f8f6;
+  --color-base-300: #e2e8e2;
+  --color-base-content: #172117;
+
+  --color-primary: #2f7d32;
+  --color-primary-content: #ffffff;
+
+  --color-secondary: #527a55;
+  --color-secondary-content: #ffffff;
+
+  --color-accent: #8aa889;
+  --color-accent-content: #172117;
+
+  --color-neutral: #263226;
+  --color-neutral-content: #ffffff;
+
+  --color-info: #2563eb;
+  --color-info-content: #ffffff;
+
+  --color-success: #2e7d32;
+  --color-success-content: #ffffff;
+
+  --color-warning: #b7791f;
+  --color-warning-content: #ffffff;
+
+  --color-error: #c62828;
+  --color-error-content: #ffffff;
+
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+@theme {
+  --font-sans: "Noto Sans Bengali", "Noto Sans", sans-serif;
+
+  --color-seed-primary: #2f7d32;
+  --color-seed-primary-dark: #256428;
+
+  --color-seed-background: #f6f8f6;
+  --color-seed-surface: #ffffff;
+
+  --color-seed-text: #172117;
+  --color-seed-muted: #667366;
+  --color-seed-border: #e2e8e2;
+
+  --color-seed-success: #2e7d32;
+  --color-seed-warning: #b7791f;
+  --color-seed-danger: #c62828;
+}
+
+:root {
+  font-family: "Noto Sans Bengali", "Noto Sans", sans-serif;
+  color: #172117;
+  background-color: #f6f8f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f6f8f6;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
