@@ -4,7 +4,7 @@ export const paths = {
   stock: "/stock",
   packaging: "/packaging",
   sales: "/sales",
-  consumerLedger: "/sales/ledger",
+  consumerLedger: "/consumer-ledger",
   income: "/finance/income",
   expense: "/finance/expense",
 };

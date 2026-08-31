@@ -5,6 +5,8 @@ import { paths } from "../app/paths";
 import DashboardHomePage from "../features/dashboard/DashboardHomePage";
 import StockDryingPage from "../features/stock/pages/StockDryingPage";
 import PackagingPage from "../features/packaging/pages/PackagingPage";
+import SellPointPage from "../features/sales/pages/SellPointPage";
+import ConsumerLedgerPage from "../features/sales/pages/ConsumerLedgerPage";
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +19,14 @@ export const router = createBrowserRouter([
       {
         path: paths.packaging,
         element: <PackagingPage />,
+      },
+      {
+        path: paths.sales,
+        element: <SellPointPage />,
+      },
+      {
+        path: paths.consumerLedger,
+        element: <ConsumerLedgerPage />,
       },
     ],
   },
