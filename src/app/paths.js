@@ -1,6 +1,6 @@
 export const paths = {
   root: "/",
-  sourcing: "/sourcing",
+  purchases: "/purchases/new",
   stock: "/stock",
   packaging: "/packaging",
   sales: "/sales",

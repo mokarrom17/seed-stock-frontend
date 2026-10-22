@@ -14,7 +14,7 @@ import { paths } from "../../app/paths";
 
 const menuItems = [
   { label: "Dashboard", path: paths.root, icon: LayoutDashboard, end: true },
-  { label: "Sourcing", path: paths.sourcing, icon: Sprout },
+  { label: "Purchases", path: paths.purchases, icon: Sprout },
   { label: "Stock / Drying", path: paths.stock, icon: Warehouse },
   { label: "Packaging", path: paths.packaging, icon: PackageOpen },
   { label: "Sell Point", path: paths.sales, icon: Store },

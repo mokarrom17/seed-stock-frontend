@@ -7,6 +7,7 @@ import StockDryingPage from "../features/stock/pages/StockDryingPage";
 import PackagingPage from "../features/packaging/pages/PackagingPage";
 import SellPointPage from "../features/sales/pages/SellPointPage";
 import ConsumerLedgerPage from "../features/sales/pages/ConsumerLedgerPage";
+import PurchasePage from "../pages/purchases/PurchasePage";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path: paths.consumerLedger,
         element: <ConsumerLedgerPage />,
+      },
+      {
+        path: "/purchases/new",
+        element: <PurchasePage />,
       },
     ],
   },

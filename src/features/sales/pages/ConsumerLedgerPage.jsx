@@ -536,7 +536,7 @@ export default function ConsumerLedgerPage() {
               {selectedTransactions.length > 0 ? (
                 <div className="overflow-hidden rounded-xl border border-seed-border">
                   <div className="overflow-x-auto">
-                    <table className="w-full min-w-[500px] text-sm">
+                    <table className="w-full min-w-125 text-sm">
                       <thead>
                         <tr className="border-b border-seed-border bg-seed-background">
                           <th className="px-4 py-3 text-left font-semibold text-seed-muted">

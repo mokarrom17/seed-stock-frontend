@@ -1,0 +1,1008 @@
+{
+  "businesses": [
+    {
+      "id": "business-001",
+      "name": "Seed Management",
+      "address": "Dhaka, Bangladesh",
+      "phone": "+880123456789",
+      "email": "info@seedmanagement.com"
+    },
+    {
+      "id": "business-002",
+      "name": "Agro Solutions",
+      "address": "Chittagong, Bangladesh",
+      "phone": "+880987654321",
+      "email": "info@agrosolutions.com"
+    }
+  ],
+  "seasons": [
+    {
+      "id": "season-boro",
+      "name": "বোরো",
+      "code": "BURO",
+      "isActive": true
+    },
+    {
+      "id": "season-aman",
+      "name": "আমন",
+      "code": "AMON",
+      "isActive": true
+    }
+  ],
+  "seedTypes": [
+    {
+      "id": "seed-katari",
+      "name": "কাটারী",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-kataribhog",
+      "name": "কাটারীভোগ",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-jirashail",
+      "name": "জিরাশাইল",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-ronjit",
+      "name": "রঞ্জিত",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-madhobi",
+      "name": "মাধবী",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-madhobilota",
+      "name": "মাধবীলতা",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-paijam",
+      "name": "পাইজাম",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-guti-swarna",
+      "name": "গুটি স্বর্ণা",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-swarna-5",
+      "name": "স্বর্ণা ৫",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-28",
+      "name": "BRRI dhan28",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-29",
+      "name": "BRRI dhan29",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-58",
+      "name": "BRRI dhan58",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-67",
+      "name": "BRRI dhan67",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-74",
+      "name": "BRRI dhan74",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-84",
+      "name": "BRRI dhan84",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-89",
+      "name": "BRRI dhan89",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-92",
+      "name": "BRRI dhan92",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-100",
+      "name": "BRRI dhan100",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-hybrid-1",
+      "name": "BRRI Hybrid dhan1",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-hybrid-2",
+      "name": "BRRI Hybrid dhan2",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-hybrid-3",
+      "name": "BRRI Hybrid dhan3",
+      "seasonIds": [
+        "season-boro"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-br11",
+      "name": "BR11",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-30",
+      "name": "BRRI dhan30",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-33",
+      "name": "BRRI dhan33",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-34",
+      "name": "BRRI dhan34",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-49",
+      "name": "BRRI dhan49",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-51",
+      "name": "BRRI dhan51",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-52",
+      "name": "BRRI dhan52",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-56",
+      "name": "BRRI dhan56",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-57",
+      "name": "BRRI dhan57",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-66",
+      "name": "BRRI dhan66",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-71",
+      "name": "BRRI dhan71",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-75",
+      "name": "BRRI dhan75",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-80",
+      "name": "BRRI dhan80",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-87",
+      "name": "BRRI dhan87",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-90",
+      "name": "BRRI dhan90",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-93",
+      "name": "BRRI dhan93",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-95",
+      "name": "BRRI dhan95",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "seed-brri-hybrid-4",
+      "name": "BRRI Hybrid dhan4",
+      "seasonIds": [
+        "season-aman"
+      ],
+      "qualityIds": [
+        "quality-001",
+        "quality-002",
+        "quality-003"
+      ],
+      "isActive": true
+    }
+  ],
+  "qualities": [
+    {
+      "id": "quality-001",
+      "name": "ভিত্তি"
+    },
+    {
+      "id": "quality-002",
+      "name": "প্রত্যায়িত"
+    },
+    {
+      "id": "quality-003",
+      "name": "মান ঘোষিত"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "supplier-001",
+      "name": "Supplier 1"
+    },
+    {
+      "id": "supplier-002",
+      "name": "Supplier 2"
+    },
+    {
+      "id": "supplier-003",
+      "name": "Supplier 3"
+    }
+  ],
+  "customers": [],
+  "sellPoints": [],
+  "purchases": [
+    {
+      "businessId": "business-001",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 500,
+          "ratePerKg": 40,
+          "totalAmount": 20000,
+          "id": "item-1791920001661-0"
+        },
+        {
+          "seedTypeId": "seed-jirashail",
+          "qualityId": "quality-002",
+          "wetWeightKg": 400,
+          "ratePerKg": 30,
+          "totalAmount": 12000,
+          "id": "item-1791920001661-1"
+        }
+      ],
+      "totalAmount": 32000,
+      "notes": "",
+      "createdAt": "2026-10-13T19:33:21.661Z",
+      "id": 1
+    },
+    {
+      "businessId": "business-001",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 600,
+          "ratePerKg": 45,
+          "totalAmount": 27000,
+          "id": "item-1791920027329-0"
+        }
+      ],
+      "totalAmount": 27000,
+      "notes": "",
+      "createdAt": "2026-10-13T19:33:47.329Z",
+      "id": 2
+    },
+    {
+      "businessId": "business-001",
+      "seasonId": "season-aman",
+      "supplierId": "supplier-002",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-madhobi",
+          "qualityId": "quality-002",
+          "wetWeightKg": 500,
+          "ratePerKg": 34,
+          "totalAmount": 17000,
+          "id": "item-1791920092116-0"
+        }
+      ],
+      "totalAmount": 17000,
+      "notes": "",
+      "createdAt": "2026-10-13T19:34:52.116Z",
+      "id": 3
+    },
+    {
+      "businessId": "business-001",
+      "seasonId": "season-aman",
+      "supplierId": "supplier-002",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-swarna-5",
+          "qualityId": "quality-001",
+          "wetWeightKg": 250,
+          "ratePerKg": 50,
+          "totalAmount": 12500,
+          "id": "item-1791920302637-0"
+        }
+      ],
+      "totalAmount": 12500,
+      "notes": "",
+      "createdAt": "2026-10-13T19:38:22.637Z",
+      "id": 4
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-jirashail",
+          "qualityId": "quality-001",
+          "wetWeightKg": 500,
+          "ratePerKg": 50,
+          "totalAmount": 25000,
+          "id": "item-1791920644761-0"
+        }
+      ],
+      "totalAmount": 25000,
+      "notes": "",
+      "createdAt": "2026-10-13T19:44:04.761Z",
+      "id": 5
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-002",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-kataribhog",
+          "qualityId": "quality-002",
+          "wetWeightKg": 500,
+          "ratePerKg": 40,
+          "totalAmount": 20000,
+          "id": "item-1791921002299-0"
+        }
+      ],
+      "totalAmount": 20000,
+      "notes": "",
+      "createdAt": "2026-10-13T19:50:02.299Z",
+      "id": 6
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-jirashail",
+          "qualityId": "quality-001",
+          "wetWeightKg": 400,
+          "ratePerKg": 40,
+          "totalAmount": 16000,
+          "id": "item-1791921192750-0"
+        }
+      ],
+      "totalAmount": 16000,
+      "notes": "",
+      "createdAt": "2026-10-13T19:53:12.750Z",
+      "id": 7
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-kataribhog",
+          "qualityId": "quality-001",
+          "wetWeightKg": 400,
+          "ratePerKg": 40,
+          "totalAmount": 16000,
+          "id": "item-1791921355900-0"
+        }
+      ],
+      "totalAmount": 16000,
+      "notes": "",
+      "createdAt": "2026-10-13T19:55:55.900Z",
+      "id": 8
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-002",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-kataribhog",
+          "qualityId": "quality-001",
+          "wetWeightKg": 500,
+          "ratePerKg": 44.98,
+          "totalAmount": 22490,
+          "id": "item-1791921544339-0"
+        }
+      ],
+      "totalAmount": 22490,
+      "notes": "",
+      "createdAt": "2026-10-13T19:59:04.339Z",
+      "id": 9
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 500,
+          "ratePerKg": 45,
+          "totalAmount": 22500,
+          "id": "item-1791921571676-0"
+        }
+      ],
+      "totalAmount": 22500,
+      "notes": "",
+      "createdAt": "2026-10-13T19:59:31.676Z",
+      "id": 10
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-kataribhog",
+          "qualityId": "quality-001",
+          "wetWeightKg": 555,
+          "ratePerKg": 44.98,
+          "totalAmount": 24963.9,
+          "id": "item-1791921611653-0"
+        }
+      ],
+      "totalAmount": 24963.9,
+      "notes": "",
+      "createdAt": "2026-10-13T20:00:11.653Z",
+      "id": 11
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-kataribhog",
+          "qualityId": "quality-001",
+          "wetWeightKg": 444,
+          "ratePerKg": 34,
+          "totalAmount": 15096,
+          "id": "item-1791921927298-0"
+        }
+      ],
+      "totalAmount": 15096,
+      "notes": "",
+      "createdAt": "2026-10-13T20:05:27.298Z",
+      "id": 12
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 434,
+          "ratePerKg": 34,
+          "totalAmount": 14756,
+          "id": "item-1791922170026-0"
+        }
+      ],
+      "totalAmount": 14756,
+      "notes": "",
+      "createdAt": "2026-10-13T20:09:30.026Z",
+      "id": 13
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-brri-29",
+          "qualityId": "quality-001",
+          "wetWeightKg": 324,
+          "ratePerKg": 34,
+          "totalAmount": 11016,
+          "id": "item-1791922262920-0"
+        }
+      ],
+      "totalAmount": 11016,
+      "notes": "",
+      "createdAt": "2026-10-13T20:11:02.920Z",
+      "id": 14
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 345,
+          "ratePerKg": 33.97,
+          "totalAmount": 11719.65,
+          "id": "item-1791922389164-0"
+        }
+      ],
+      "totalAmount": 11719.65,
+      "notes": "",
+      "createdAt": "2026-10-13T20:13:09.164Z",
+      "id": 15
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 342,
+          "ratePerKg": 33.97,
+          "totalAmount": 11617.74,
+          "id": "item-1791922438874-0"
+        }
+      ],
+      "totalAmount": 11617.74,
+      "notes": "",
+      "createdAt": "2026-10-13T20:13:58.874Z",
+      "id": 16
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 345,
+          "ratePerKg": 53.98,
+          "totalAmount": 18623.1,
+          "id": "item-1791922676603-0"
+        }
+      ],
+      "totalAmount": 18623.1,
+      "notes": "",
+      "createdAt": "2026-10-13T20:17:56.603Z",
+      "id": 17
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 345,
+          "ratePerKg": 34,
+          "totalAmount": 11730,
+          "id": "item-1791922740141-0"
+        }
+      ],
+      "totalAmount": 11730,
+      "notes": "",
+      "createdAt": "2026-10-13T20:19:00.141Z",
+      "id": 18
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 345,
+          "ratePerKg": 34,
+          "totalAmount": 11730,
+          "id": "item-1791923017705-0"
+        }
+      ],
+      "totalAmount": 11730,
+      "notes": "",
+      "createdAt": "2026-10-13T20:23:37.705Z",
+      "id": 19
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-katari",
+          "qualityId": "quality-001",
+          "wetWeightKg": 234,
+          "ratePerKg": 43.96,
+          "totalAmount": 10286.64,
+          "id": "item-1791923275652-0"
+        }
+      ],
+      "totalAmount": 10286.64,
+      "notes": "",
+      "createdAt": "2026-10-13T20:27:55.652Z",
+      "id": 20
+    },
+    {
+      "businessId": "seed-stock",
+      "seasonId": "season-boro",
+      "supplierId": "supplier-001",
+      "purchaseDate": "2026-10-14",
+      "items": [
+        {
+          "seedTypeId": "seed-kataribhog",
+          "qualityId": "quality-002",
+          "wetWeightKg": 443,
+          "ratePerKg": 34.13,
+          "totalAmount": 15119.59,
+          "id": "item-1791923327154-0"
+        }
+      ],
+      "totalAmount": 15119.59,
+      "notes": "",
+      "createdAt": "2026-10-13T20:28:47.154Z",
+      "id": 21
+    }
+  ],
+  "dryingBatches": [],
+  "packagingBatches": [],
+  "sales": [],
+  "supplierPayments": [],
+  "customerPayments": [],
+  "expenses": [],
+  "otherIncomes": []
+}

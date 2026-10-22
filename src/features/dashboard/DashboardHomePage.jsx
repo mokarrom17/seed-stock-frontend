@@ -1,3 +1,5 @@
+import QualityExample from "../../components/QualityExample";
+
 const DashboardHomePage = () => {
   return (
     <div className="space-y-6">
@@ -9,6 +11,8 @@ const DashboardHomePage = () => {
           Manage your seed inventory and business operations.
         </p>
       </div>
+
+      <QualityExample />
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="rounded-xl border border-seed-border bg-white p-5">
